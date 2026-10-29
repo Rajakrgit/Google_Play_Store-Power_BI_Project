@@ -3,7 +3,8 @@ I worked on a Google Play Store App Analytics project using Microsoft Power BI. 
 
 The project was organized into three report pages: App Performance Overview, Factors Influencing App Performance, and Customer Sentiment Analysis.
 
-I used Power Query for data preparation, Power BI for data modeling and visualization, and DAX for calculating analytical measures. I used KPI cards, bar charts, column charts, scatter charts, donut charts, tables, and slicers to present the analysis interactively. The report focuses on metrics such as total applications, average rating, total installs, total reviews, free and paid applications, and positive and negative customer reviews.
+I used Power Query for data preparation, Power BI for data modeling and visualization, and DAX for calculating analytical measures. 
+First I used KPI cards, bar charts, column charts, scatter charts, donut charts, tables, and slicers to present the analysis interactively. The report focuses on metrics such as total applications, average rating, total installs, total reviews, free and paid applications, and positive and negative customer reviews.
 
 The second page explores relationships between app characteristics, including ratings, installs, reviews, price, and application size. The third page focuses on customer sentiment and allows users to examine feedback across different categories and Android versions.
 
