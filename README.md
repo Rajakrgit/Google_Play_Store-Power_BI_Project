@@ -1,15 +1,96 @@
 # Google_Play_Store-Power_BI_Project
-I worked on a Google Play Store App Analytics project using Microsoft Power BI. The main objective was to analyze application performance, understand factors associated with app popularity, and evaluate customer sentiment through user reviews.
+# 1. Project Overview
 
-The project was organized into three report pages: App Performance Overview, Factors Influencing App Performance, and Customer Sentiment Analysis.
+The Google Play Store App Insights project analyses mobile application
+data to understand app popularity, user satisfaction, customer
+engagement, and factors that may influence app performance.
 
-I used Power Query for data preparation, Power BI for data modeling and visualization, and DAX for calculating analytical measures. 
-The first I used KPI cards, bar charts, column charts, scatter charts, donut charts, tables, and slicers to present the analysis interactively. The report focuses on metrics such as total applications, average rating, total installs, total reviews, free and paid applications, and positive and negative customer reviews.
+The project brief describes a technology company that wants to use
+Google Play Store data to improve app development strategies, enhance
+user experience, increase downloads, and identify revenue opportunities.
+The analysis focuses on app ratings, installs, reviews, categories, app
+size, price, app type, content rating, and update information.
 
-The second page explores relationships between app characteristics, including ratings, installs, reviews, price, and application size. The third page focuses on customer sentiment and allows users to examine feedback across different categories and Android versions.
+I developed a Power BI report with three analysis areas:
 
-One important challenge in this type of project is ensuring that app information and review data are combined correctly and that calculations remain accurate when users apply filters.
+• App Performance Overview -- overall app-market KPIs and
+category, app-type, and content-rating distribution.
 
-I would recommend improving the report further by validating the data model, investigating recurring themes in negative reviews, and adding category-level performance comparisons.
+• Factors Influencing App Performance -- relationships between
+ratings, installs, app size, install bands, price, reviews, and app
+attributes.
 
-This project helped me develop my Power BI reporting skills and understand how app performance data and customer feedback can support data-driven product decisions.
+• Customer Sentiment Analysis -- review sentiment distribution and
+comparison of positive, negative, and neutral reviews across
+categories.
+
+# 2. Business Requirements
+• Identify popular app categories.
+
+• Analyse factors affecting app ratings.
+
+• Compare free and paid applications.
+
+• Understand the relationship between app size and installs.
+
+• Analyse price and customer engagement.
+
+• Identify positive and negative customer feedback.
+
+• Recommend improvements to app development and marketing.
+
+# 3. Tools & Technologies
+• Power BI Desktop: Dashboard development and visualisation.
+
+• Power Query: Data cleaning and transformation.
+
+• DAX: Calculated measures and KPIs.
+
+• Power BI visuals: Bar charts, doughnut charts, scatter plots and tables.
+
+• Slicers: Interactive filtering.
+
+# 4. Challenges Faced
+• Handling missing and duplicate records.
+
+• Converting installs and prices into numeric values.
+
+• Maintaining consistent category and genre names.
+
+• Combining app-level and review-level information correctly.
+
+• Creating meaningful DAX measures.
+
+• Handling missing sentiment values.
+
+• Choosing appropriate visual aggregations.
+
+# 5. Key Business Insights
+• Free apps represent the majority of the displayed app portfolio.
+
+• Average app rating is 3.62.
+
+• Family has the largest app count in the overview.
+
+• Everyone is the leading content-rating group in the chart.
+
+• Sentiment dashboard displays approximately 24K positive and 8K negative reviews.
+
+• Positive review percentage is displayed as 37.32%.
+
+• Ratings and sentiment should be considered alongside installs to understand app performance.
+
+# 6. Recommendations
+• Improve app usability based on negative customer reviews.
+
+• Study successful categories before launching new apps.
+
+• Optimise app size and performance.
+
+• Evaluate free and paid pricing strategies.
+
+• Release regular app updates.
+
+• Monitor customer sentiment after product updates.
+
+• Use review themes to prioritise product improvements.
